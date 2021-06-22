@@ -241,3 +241,6 @@ Read 63 line
 [2021-06-20 18:51:00.521559] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./amgeo_output/default/20160625N
 [2021-06-20 19:04:15.293463] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
 [2021-06-20 19:33:12.159918] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
+[2021-06-22 02:44:05.787152] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
+[2021-06-22 03:36:54.448451] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
+[2021-06-22 04:12:32.411756] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00

@@ -88,3 +88,9 @@ Read 63 line
 [2021-06-22 04:12:32.410754] INFO: AMGeO.driver_default: 2015-06-25 13:15:00 complete
 [2021-06-22 04:12:32.411086] INFO: AMGeO.driver_default: 2015-06-25 13:30:00 complete
 [2021-06-22 04:12:32.411251] INFO: AMGeO.driver_default: 2015-06-25 13:45:00 complete
+[2021-06-23 04:00:32.803175] INFO: AMGeO.driver_default: No new datetimes to complete for 2014-05-06 00:00:00
+[2021-06-23 04:00:32.810368] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./api_demo_output/Default/20150625N
+[2021-06-23 04:00:32.812138] INFO: AMGeO.driver_default: 2015-06-25 13:00:00 complete
+[2021-06-23 04:00:32.812482] INFO: AMGeO.driver_default: 2015-06-25 13:15:00 complete
+[2021-06-23 04:00:32.812796] INFO: AMGeO.driver_default: 2015-06-25 13:30:00 complete
+[2021-06-23 04:00:32.812888] INFO: AMGeO.driver_default: 2015-06-25 13:45:00 complete

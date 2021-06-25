@@ -191,3 +191,5 @@ Read 63 line
 [2021-06-22 04:12:11.436313] INFO: AMGeO.driver_default: No new datetimes to complete for 2017-01-01 12:00:00
 [2021-06-23 04:02:43.770080] INFO: AMGeO.driver_default: No new datetimes to complete for 2017-01-01 12:00:00
 [2021-06-23 04:05:52.485057] INFO: AMGeO.driver_default: No new datetimes to complete for 2017-01-01 12:00:00
+[2021-06-24 18:42:56.126369] INFO: AMGeO.driver_default: No new datetimes to complete for 2017-01-01 12:00:00
+[2021-06-25 05:41:33.384532] INFO: AMGeO.driver_default: No new datetimes to complete for 2017-01-01 12:00:00

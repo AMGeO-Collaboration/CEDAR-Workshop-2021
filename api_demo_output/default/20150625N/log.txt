@@ -1,254 +1,176 @@
-[2021-06-20 18:26:50.415612] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2015-06-25 00:00:00...
-[2021-06-20 18:26:54.759406] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
-[2021-06-20 18:26:54.759501] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
-[2021-06-20 18:26:54.876074] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
-[2021-06-20 18:26:54.979582] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
-[2021-06-20 18:26:56.536065] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
-[2021-06-20 18:26:56.572857] NOTICE: AMGeO.driver_default: Loading OvationPyme conductance model...
-[2021-06-20 18:27:01.586501] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2015-06-25 00:00:00...
-[2021-06-20 18:27:01.586719] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
-[2021-06-20 18:27:01.589955] NOTICE: AMGeO.observations.supermag: No file /Users/willemmirkovich/Library/Application Support/AMGeO/20150625-supermag.txt
-Attempting to download SuperMAG data for 2015-06-25 00:00:00...
-[2021-06-20 18:27:01.735220] DEBUG: AMGeO.downloaders.supermag: <Response [200]>
-[2021-06-20 18:27:01.735464] DEBUG: AMGeO.downloaders.supermag: {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NsYWltcyI6eyJhcGlfdG9rZW4iOiI4bXdVbEcrSkF1ZGZuUDc0QytxK3RnSnFzTlNsa3lkMlJYT1NuN1RraWJYcTNPakpWUjVUejVneUV2ZUtFM0VxRzZQNm52QzBYY0ZEV3NNb3Q3SjE0MVNRNHRoS0JRTDU2aWtFcGcxeG1xNUlrdnl5WE0zRHh3TkgrclVEaFJjdCJ9LCJqdGkiOiI0NjI0YTI0My1iODEwLTRlN2UtOTE5My0xOWY0ODMyZTlhNmUiLCJleHAiOjE2MjQyMTQ1MjEsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjI0MjEzNjIxLCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjI0MjEzNjIxLCJpZGVudGl0eSI6IndqbWlyayJ9.BYteK6JoB-3c1jQQVeS6sPKUUen8j55nKPP3j_KRfS0", "message": "Logged in as wjmirk", "action_succeeded": true}
-
-[2021-06-20 18:27:02.072421] DEBUG: AMGeO.downloaders.supermag: <Response [500]>
-[2021-06-20 18:27:02.072648] DEBUG: AMGeO.downloaders.supermag: {"message": "Backend error"}
-
-[2021-06-20 18:27:02.072788] CRITICAL: AMGeO.downloaders.supermag: SuperMAG data service was unable to retrieve requested data. Server message was Backend error
-[2021-06-20 18:27:02.072888] ERROR: AMGeO.driver_default: SuperMAG data service was unable to retrieve requested data. Server message was Backend error
-[2021-06-20 18:27:52.851710] INFO: AMGeO.driver_default: Creating directory ./amgeo_output/default/20140625N
-[2021-06-20 18:27:52.852040] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./amgeo_output/default/20140625N
-[2021-06-20 18:31:12.436164] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2015-06-25 13:00:00...
-[2021-06-20 18:31:16.729301] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
-[2021-06-20 18:31:16.729407] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
-[2021-06-20 18:31:16.811186] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
-[2021-06-20 18:31:16.892361] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
-[2021-06-20 18:31:18.600247] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
-[2021-06-20 18:31:18.605387] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2015-06-25 13:00:00...
-[2021-06-20 18:31:18.605505] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
-[2021-06-20 18:31:18.607687] NOTICE: AMGeO.observations.supermag: No file /Users/willemmirkovich/Library/Application Support/AMGeO/20150625-supermag.txt
-Attempting to download SuperMAG data for 2015-06-25 13:00:00...
-[2021-06-20 18:31:18.708090] DEBUG: AMGeO.downloaders.supermag: <Response [200]>
-[2021-06-20 18:31:18.708253] DEBUG: AMGeO.downloaders.supermag: {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NsYWltcyI6eyJhcGlfdG9rZW4iOiI4bXdVbEcrSkF1ZGZuUDc0QytxK3RnSnFzTlNsa3lkMlJYT1NuN1RraWJYcTNPakpWUjVUejVneUV2ZUtFM0VxRzZQNm52QzBYY0ZEV3NNb3Q3SjE0MVNRNHRoS0JRTDU2aWtFcGcxeG1xNUlrdnl5WE0zRHh3TkgrclVEaFJjdCJ9LCJqdGkiOiJjOTVhNDM3NC1mYjA4LTQ5NzctYTlhYy1iYzUyNzZlNmQ4MTYiLCJleHAiOjE2MjQyMTQ3NzgsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjI0MjEzODc4LCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjI0MjEzODc4LCJpZGVudGl0eSI6IndqbWlyayJ9.BISPEfEQxsa9OGAt3snKBayPf-xNj1djcxjBm25hDt0", "message": "Logged in as wjmirk", "action_succeeded": true}
-
-[2021-06-20 18:31:46.577975] DEBUG: AMGeO.downloaders.supermag: <Response [200]>
-[2021-06-20 18:31:46.578173] DEBUG: AMGeO.downloaders.supermag: {"message": "File created successfully", "action_succeeded": true, "filename": "20150625-supermag.txt"}
-
-[2021-06-20 18:31:48.628443] NOTICE: AMGeO.downloaders.supermag: SM file downloaded 20150625-supermag.txt->/Users/willemmirkovich/Library/Application Support/AMGeO/20150625-supermag.txt
-[2021-06-20 18:31:48.631813] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20150625-supermag.txt
-[2021-06-20 18:31:48.644553] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
+[2021-06-30 04:08:47.459609] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2015-06-25 13:00:00...
+[2021-06-30 04:08:51.847665] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
+[2021-06-30 04:08:51.847758] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
+[2021-06-30 04:08:51.958175] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-06-30 04:08:52.061051] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
+[2021-06-30 04:08:53.467379] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
+[2021-06-30 04:08:53.473190] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2015-06-25 13:00:00...
+[2021-06-30 04:08:53.473315] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
+[2021-06-30 04:08:53.475829] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20150625-supermag.txt
+[2021-06-30 04:08:53.475900] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20150625-supermag.txt
+[2021-06-30 04:08:53.485734] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
 Expected 71 lines
 Read 63 line
-[2021-06-20 18:31:58.334407] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2015-06-25 13:00:00, hemisphere N...
-[2021-06-20 18:31:58.334604] NOTICE: AMGeO.observations.superdarn: No file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20150625N.h5Attempting to download SuperDARN N hemisphere data for 2015-06-25 13:00:00...
-[2021-06-20 18:31:58.441704] DEBUG: AMGeO.downloaders.superdarn: <Response [200]>
-[2021-06-20 18:31:58.441907] DEBUG: AMGeO.downloaders.superdarn: {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMjUzMWYzNS05OTg3LTQ0MzItODZmNS01NjJjY2ZlZjk1YmIiLCJleHAiOjE2MjQyMTQ4MTgsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjI0MjEzOTE4LCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjI0MjEzOTE4LCJpZGVudGl0eSI6ImFtZ2VvdXNlciJ9.4vhnlfdhKzjBZFen6Gqpd41PUiMliLYuONmMIY6GB4A", "message": "Logged in as amgeouser", "action_succeeded": true}
-
-[2021-06-20 18:32:15.756312] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./amgeo_output/default/20150625N
-[2021-06-20 18:32:15.758635] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2015-06-25 13:00:00...
-[2021-06-20 18:32:20.083827] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
-[2021-06-20 18:32:20.083926] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
-[2021-06-20 18:32:20.162293] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
-[2021-06-20 18:32:20.241357] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
-[2021-06-20 18:32:21.945891] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
-[2021-06-20 18:32:21.951405] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2015-06-25 13:00:00, hemisphere N...
-[2021-06-20 18:32:21.951583] NOTICE: AMGeO.observations.superdarn: No file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20150625N.h5Attempting to download SuperDARN N hemisphere data for 2015-06-25 13:00:00...
-[2021-06-20 18:32:26.392703] DEBUG: AMGeO.downloaders.superdarn: <Response [200]>
-[2021-06-20 18:32:26.392907] DEBUG: AMGeO.downloaders.superdarn: {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJjNmYwMWVmMy01ZGVlLTRkODAtOTNhNS1kYWY3ZGIyYmE4MmMiLCJleHAiOjE2MjQyMTQ4NDYsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjI0MjEzOTQ2LCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjI0MjEzOTQ2LCJpZGVudGl0eSI6ImFtZ2VvdXNlciJ9.kfexqbGWO-HjuTpnFOAovzKjKDhfdxlTUn2RDVlaznk", "message": "Logged in as amgeouser", "action_succeeded": true}
-
-[2021-06-20 18:33:04.503985] DEBUG: AMGeO.downloaders.superdarn: <Response [200]>
-[2021-06-20 18:33:04.504208] DEBUG: AMGeO.downloaders.superdarn: {"message": "File generated successfully", "action_succeeded": true, "filename": "SD_grid_20150625N.h5"}
-
-[2021-06-20 18:33:05.733938] NOTICE: AMGeO.downloaders.superdarn: SD file downloaded SD_grid_20150625N.h5->/Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20150625N.h5
-[2021-06-20 18:33:05.734085] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20150625N.h5...
-[2021-06-20 18:33:11.488607] DEBUG: AMGeO.observations.superdarn: 59584/116053 line of sight observations were made negative because they were toward the radar
-[2021-06-20 18:33:11.488886] INFO: AMGeO.observations.superdarn: Read 116053 SuperDARN Grid records
+[2021-06-30 04:09:02.940741] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2015-06-25 13:00:00, hemisphere N...
+[2021-06-30 04:09:02.940964] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20150625N.h5
+[2021-06-30 04:09:02.941026] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20150625N.h5...
+[2021-06-30 04:09:09.111014] DEBUG: AMGeO.observations.superdarn: 59584/116053 line of sight observations were made negative because they were toward the radar
+[2021-06-30 04:09:09.112491] INFO: AMGeO.observations.superdarn: Read 116053 SuperDARN Grid records
  spanning 20150625 00:02-20150625 23:58
-[2021-06-20 18:33:11.493210] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
+[2021-06-30 04:09:09.116841] INFO: AMGeO.observations.superdarn: Created SuperDARN observation object SuperDARN electricfield:
  hemisphere N,
  date 2015-6-25
-[2021-06-20 18:33:11.509197] INFO: AMGeO.driver_default: 2015-06-25 13:00:00 running
-[2021-06-20 18:33:11.509405] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2015-06-25 13:00:00...
-[2021-06-20 18:33:11.509491] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 0), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:11.602133] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-06-20 18:33:13.015894] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:14.410328] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:15.789532] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:15.911464] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:15.911573] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:15.911647] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:16.039582] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:16.039690] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:16.039764] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:16.160128] DEBUG: OvationPyme.ovation_prime: Zeroed 4110/7680 average energieswith numflux below 5.000000e+07
-[2021-06-20 18:33:16.160251] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-06-20 18:33:16.160307] DEBUG: OvationPyme.ovation_prime: Zeroed 4995/7680 average energies under .2 keV
-[2021-06-20 18:33:16.841488] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:25.094440] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 0), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:25.191171] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 0), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:25.286434] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 0), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:25.383416] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 0), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:29.942420] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-06-20 18:33:29.942571] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:29.942631] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:29.942699] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:30.068906] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:30.069008] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:30.069081] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:30.185431] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:30.185517] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:30.185581] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:30.308291] DEBUG: OvationPyme.ovation_prime: Zeroed 4110/7680 average energieswith numflux below 5.000000e+07
-[2021-06-20 18:33:30.308408] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-06-20 18:33:30.308459] DEBUG: OvationPyme.ovation_prime: Zeroed 4995/7680 average energies under .2 keV
-[2021-06-20 18:33:30.670006] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:32.622781] INFO: AMGeO.driver_default: Omni for 2015-06-25 13:00:00
+[2021-06-30 04:09:09.131680] INFO: AMGeO.driver_default: 2015-06-25 13:00:00 running
+[2021-06-30 04:09:09.131858] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2015-06-25 13:00:00...
+[2021-06-30 04:09:09.132045] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 0), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:09.183380] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-06-30 04:09:10.827746] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:12.484277] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:14.106167] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:14.222222] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:14.222315] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:14.222386] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:14.336196] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:14.336276] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:14.336358] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:14.452094] DEBUG: OvationPyme.ovation_prime: Zeroed 4110/7680 average energieswith numflux below 5.000000e+07
+[2021-06-30 04:09:14.452185] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-06-30 04:09:14.452232] DEBUG: OvationPyme.ovation_prime: Zeroed 4995/7680 average energies under .2 keV
+[2021-06-30 04:09:15.113532] DEBUG: OvationPyme.ovation_utilites: Created new solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:23.182310] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 0), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:23.278893] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 0), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:23.373233] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 0), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:23.469912] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 0), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:27.950278] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-06-30 04:09:27.950406] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:27.950465] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:27.950536] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:28.075589] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:28.075679] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:28.075750] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:28.192619] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:28.192700] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:28.192763] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:28.307210] DEBUG: OvationPyme.ovation_prime: Zeroed 4110/7680 average energieswith numflux below 5.000000e+07
+[2021-06-30 04:09:28.307295] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-06-30 04:09:28.307341] DEBUG: OvationPyme.ovation_prime: Zeroed 4995/7680 average energies under .2 keV
+[2021-06-30 04:09:28.647621] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:30.620578] INFO: AMGeO.driver_default: Omni for 2015-06-25 13:00:00
 
-[2021-06-20 18:33:33.574437] INFO: AMGeO.driver_default: 2015-06-25 13:00:00 complete
-[2021-06-20 18:33:33.575598] INFO: AMGeO.driver_default: 2015-06-25 13:15:00 running
-[2021-06-20 18:33:33.575671] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2015-06-25 13:15:00...
-[2021-06-20 18:33:33.575725] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 15), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:33.624128] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-06-20 18:33:33.624252] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:33.624310] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:33.624376] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:33.748813] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:33.748919] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:33.748994] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:33.868567] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:33.868668] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:33.868738] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:33.989699] DEBUG: OvationPyme.ovation_prime: Zeroed 4139/7680 average energieswith numflux below 5.000000e+07
-[2021-06-20 18:33:33.989814] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-06-20 18:33:33.989865] DEBUG: OvationPyme.ovation_prime: Zeroed 4993/7680 average energies under .2 keV
-[2021-06-20 18:33:34.367694] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:42.523595] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 15), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:42.621140] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 15), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:42.715193] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 15), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:42.811780] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 15), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:47.455085] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-06-20 18:33:47.455222] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:47.455285] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:47.455360] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:47.582894] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:47.583002] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:47.583078] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:47.697544] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:47.697632] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:47.697700] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:47.815862] DEBUG: OvationPyme.ovation_prime: Zeroed 4139/7680 average energieswith numflux below 5.000000e+07
-[2021-06-20 18:33:47.815981] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-06-20 18:33:47.816032] DEBUG: OvationPyme.ovation_prime: Zeroed 4993/7680 average energies under .2 keV
-[2021-06-20 18:33:48.178897] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:50.142508] INFO: AMGeO.driver_default: Omni for 2015-06-25 13:15:00
+[2021-06-30 04:09:31.381702] INFO: AMGeO.driver_default: 2015-06-25 13:00:00 complete
+[2021-06-30 04:09:31.382979] INFO: AMGeO.driver_default: 2015-06-25 13:15:00 running
+[2021-06-30 04:09:31.383050] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2015-06-25 13:15:00...
+[2021-06-30 04:09:31.383104] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 15), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:31.430754] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-06-30 04:09:31.430875] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:31.430953] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:31.431021] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:31.556585] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:31.556692] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:31.556766] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:31.676100] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:31.676193] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:31.676263] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:31.793563] DEBUG: OvationPyme.ovation_prime: Zeroed 4139/7680 average energieswith numflux below 5.000000e+07
+[2021-06-30 04:09:31.793648] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-06-30 04:09:31.793694] DEBUG: OvationPyme.ovation_prime: Zeroed 4993/7680 average energies under .2 keV
+[2021-06-30 04:09:32.136169] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:40.242146] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 15), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:40.340443] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 15), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:40.435751] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 15), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:40.534129] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 15), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:45.208413] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-06-30 04:09:45.208550] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:45.208613] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:45.208687] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:45.336403] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:45.336508] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:45.336585] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:45.461621] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:45.461725] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:45.461801] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:45.579561] DEBUG: OvationPyme.ovation_prime: Zeroed 4139/7680 average energieswith numflux below 5.000000e+07
+[2021-06-30 04:09:45.579660] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-06-30 04:09:45.579710] DEBUG: OvationPyme.ovation_prime: Zeroed 4993/7680 average energies under .2 keV
+[2021-06-30 04:09:45.931096] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:47.874240] INFO: AMGeO.driver_default: Omni for 2015-06-25 13:15:00
 
-[2021-06-20 18:33:50.874750] INFO: AMGeO.driver_default: 2015-06-25 13:15:00 complete
-[2021-06-20 18:33:50.875955] INFO: AMGeO.driver_default: 2015-06-25 13:30:00 running
-[2021-06-20 18:33:50.876036] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2015-06-25 13:30:00...
-[2021-06-20 18:33:50.876094] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:50.924698] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-06-20 18:33:50.924826] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:50.924887] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:50.924955] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:51.052131] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:51.052263] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:51.052343] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:51.174910] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:51.175002] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:51.175070] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:51.293248] DEBUG: OvationPyme.ovation_prime: Zeroed 4162/7680 average energieswith numflux below 5.000000e+07
-[2021-06-20 18:33:51.293358] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-06-20 18:33:51.293408] DEBUG: OvationPyme.ovation_prime: Zeroed 4992/7680 average energies under .2 keV
-[2021-06-20 18:33:51.662674] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:33:59.770129] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:59.866278] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:33:59.962727] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:34:00.061321] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:34:04.548411] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-06-20 18:34:04.548538] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:04.548598] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:04.548668] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:04.680591] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:04.680696] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:04.680771] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:04.800680] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:04.800784] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:04.800852] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:04.918326] DEBUG: OvationPyme.ovation_prime: Zeroed 4162/7680 average energieswith numflux below 5.000000e+07
-[2021-06-20 18:34:04.918434] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-06-20 18:34:04.918483] DEBUG: OvationPyme.ovation_prime: Zeroed 4992/7680 average energies under .2 keV
-[2021-06-20 18:34:05.282027] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:07.265366] INFO: AMGeO.driver_default: Omni for 2015-06-25 13:30:00
+[2021-06-30 04:09:48.501202] INFO: AMGeO.driver_default: 2015-06-25 13:15:00 complete
+[2021-06-30 04:09:48.502382] INFO: AMGeO.driver_default: 2015-06-25 13:30:00 running
+[2021-06-30 04:09:48.502455] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2015-06-25 13:30:00...
+[2021-06-30 04:09:48.502508] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:48.550100] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-06-30 04:09:48.550223] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:48.550283] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:48.550350] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:48.675965] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:48.676071] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:48.676145] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:48.796594] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:48.796685] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:48.796753] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:48.912753] DEBUG: OvationPyme.ovation_prime: Zeroed 4162/7680 average energieswith numflux below 5.000000e+07
+[2021-06-30 04:09:48.912846] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-06-30 04:09:48.912896] DEBUG: OvationPyme.ovation_prime: Zeroed 4992/7680 average energies under .2 keV
+[2021-06-30 04:09:49.261114] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:09:57.372565] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:57.469272] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:57.564227] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:09:57.662007] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 30), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:10:02.127637] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-06-30 04:10:02.127768] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:02.127826] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:02.127897] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:02.252942] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:02.253063] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:02.253138] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:02.371892] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:02.371984] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:02.372053] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:02.487545] DEBUG: OvationPyme.ovation_prime: Zeroed 4162/7680 average energieswith numflux below 5.000000e+07
+[2021-06-30 04:10:02.487630] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-06-30 04:10:02.487678] DEBUG: OvationPyme.ovation_prime: Zeroed 4992/7680 average energies under .2 keV
+[2021-06-30 04:10:02.853854] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:04.783536] INFO: AMGeO.driver_default: Omni for 2015-06-25 13:30:00
 
-[2021-06-20 18:34:07.901821] INFO: AMGeO.driver_default: 2015-06-25 13:30:00 complete
-[2021-06-20 18:34:07.903104] INFO: AMGeO.driver_default: 2015-06-25 13:45:00 running
-[2021-06-20 18:34:07.903191] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2015-06-25 13:45:00...
-[2021-06-20 18:34:07.903245] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 45), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:34:07.949984] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-06-20 18:34:07.950147] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:07.950208] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:07.950317] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:08.076035] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:08.076141] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:08.076215] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:08.200857] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:08.200959] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:08.201031] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:08.318557] DEBUG: OvationPyme.ovation_prime: Zeroed 4174/7680 average energieswith numflux below 5.000000e+07
-[2021-06-20 18:34:08.318658] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-06-20 18:34:08.318705] DEBUG: OvationPyme.ovation_prime: Zeroed 4999/7680 average energies under .2 keV
-[2021-06-20 18:34:08.679203] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:16.781290] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 45), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:34:16.877259] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 45), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:34:16.970534] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 45), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:34:17.070734] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 45), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa192cfa0d0>)
-[2021-06-20 18:34:21.491928] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
-[2021-06-20 18:34:21.492061] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:21.492122] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:21.492195] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:21.618798] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:21.618910] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:21.618986] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:21.738800] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:21.738905] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:21.738970] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:21.857921] DEBUG: OvationPyme.ovation_prime: Zeroed 4174/7680 average energieswith numflux below 5.000000e+07
-[2021-06-20 18:34:21.858036] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
-[2021-06-20 18:34:21.858085] DEBUG: OvationPyme.ovation_prime: Zeroed 4999/7680 average energies under .2 keV
-[2021-06-20 18:34:22.215898] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
-[2021-06-20 18:34:24.204061] INFO: AMGeO.driver_default: Omni for 2015-06-25 13:45:00
+[2021-06-30 04:10:05.511323] INFO: AMGeO.driver_default: 2015-06-25 13:30:00 complete
+[2021-06-30 04:10:05.512521] INFO: AMGeO.driver_default: 2015-06-25 13:45:00 running
+[2021-06-30 04:10:05.512600] NOTICE: AMGeO.driver_default: Beginning AMGeO run for 2015-06-25 13:45:00...
+[2021-06-30 04:10:05.512658] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 45), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:10:05.558322] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-06-30 04:10:05.558519] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:05.558626] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:05.558712] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:05.684828] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:05.684941] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:05.685019] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:05.802241] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:05.802334] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:05.802402] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:05.917922] DEBUG: OvationPyme.ovation_prime: Zeroed 4174/7680 average energieswith numflux below 5.000000e+07
+[2021-06-30 04:10:05.918028] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-06-30 04:10:05.918084] DEBUG: OvationPyme.ovation_prime: Zeroed 4999/7680 average energies under .2 keV
+[2021-06-30 04:10:06.270988] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:14.399987] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 45), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:10:14.496437] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 45), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:10:14.590363] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 45), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:10:14.686787] DEBUG: AMGeO.update.predict: (datetime.datetime(2015, 6, 25, 13, 45), 'N', <AMGeO.observations.interface.ObservationsCollection object at 0x7fa87e7fda90>)
+[2021-06-30 04:10:19.089873] NOTICE: OvationPyme.ovation_prime: Getting conductance with solar True, aurora True, fluxtypes ['diff'], background_ped: 4.0, background_hall 4.0
+[2021-06-30 04:10:19.090003] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:19.090062] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:19.090134] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:19.214299] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:19.214397] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:19.214472] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:19.332177] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:19.332257] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:19.332324] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:19.450257] DEBUG: OvationPyme.ovation_prime: Zeroed 4174/7680 average energieswith numflux below 5.000000e+07
+[2021-06-30 04:10:19.450352] DEBUG: OvationPyme.ovation_prime: Zeroed 0/7680 average energies over 30 keV
+[2021-06-30 04:10:19.450400] DEBUG: OvationPyme.ovation_prime: Zeroed 4999/7680 average energies under .2 keV
+[2021-06-30 04:10:19.798246] DEBUG: OvationPyme.ovation_utilites: Using cached solar wind interval: 2015-06-24 01:00:00-2015-06-27 01:00:00
+[2021-06-30 04:10:21.729918] INFO: AMGeO.driver_default: Omni for 2015-06-25 13:45:00
 
-[2021-06-20 18:34:24.948479] INFO: AMGeO.driver_default: 2015-06-25 13:45:00 complete
-[2021-06-20 18:39:41.336623] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./amgeo_output/default/20140625N
-[2021-06-20 18:50:37.376940] NOTICE: AMGeO.driver_default: Loading NASA OMNIWeb Solar Wind Data for 2015-06-25 00:00:00...
-[2021-06-20 18:50:41.755013] NOTICE: AMGeO.driver_default: Initializing default electric potential solver...
-[2021-06-20 18:50:41.755114] NOTICE: AMGeO.driver_default: Loading Cousins & Shephard, 2010 (CS10) electric potential model...
-[2021-06-20 18:50:41.837398] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
-[2021-06-20 18:50:41.919699] DEBUG: AMGeO.models.cs10: (array([], dtype=int64), array([], dtype=int64), array([], dtype=int64), array([], dtype=int64))
-[2021-06-20 18:50:43.649413] NOTICE: AMGeO.driver_default: Loading CS10 covariance...
-[2021-06-20 18:50:43.655211] NOTICE: AMGeO.driver_default: Loading SuperMAG data for 2015-06-25 00:00:00...
-[2021-06-20 18:50:43.655310] INFO: AMGeO.observations.supermag: Reading SuperMAG Stations CSV file /Users/willemmirkovich/AMGeO/AMGeO/AMGeO/files/tables/test_amgeo_obs/supermag-stations.csv...
-[2021-06-20 18:50:43.657959] NOTICE: AMGeO.observations.supermag: Loading SuperMAG file /Users/willemmirkovich/Library/Application Support/AMGeO/20150625-supermag.txt
-[2021-06-20 18:50:43.658036] NOTICE: AMGeO.observations.supermag: Reading SuperMAG ASCII data file /Users/willemmirkovich/Library/Application Support/AMGeO/20150625-supermag.txt
-[2021-06-20 18:50:43.668128] WARNING: AMGeO.observations.supermag: SuperMAG file header format mismatch
-Expected 71 lines
-Read 63 line
-[2021-06-20 18:50:53.630870] NOTICE: AMGeO.driver_default: Loading SuperDARN data for 2015-06-25 00:00:00, hemisphere N...
-[2021-06-20 18:50:53.631070] NOTICE: AMGeO.observations.superdarn: Loading SuperDARN file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20150625N.h5
-[2021-06-20 18:50:53.631138] INFO: AMGeO.observations.superdarn: Reading HDF5 file /Users/willemmirkovich/Library/Application Support/AMGeO/SD_grid_20150625N.h5...
-[2021-06-20 18:51:00.521212] INFO: AMGeO.driver_default: Creating directory ./amgeo_output/default/20160625N
-[2021-06-20 18:51:00.521559] DEBUG: AMGeO.driver_default: AMGeO default output directory: ./amgeo_output/default/20160625N
-[2021-06-20 19:04:15.293463] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-20 19:33:12.159918] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-22 02:44:05.787152] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-22 03:36:54.448451] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-22 04:12:32.411756] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-23 04:00:32.813574] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-24 18:21:41.873941] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-25 05:23:46.319818] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-25 05:34:02.176651] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-25 05:35:33.513274] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-25 05:36:32.523313] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-25 05:37:05.485899] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
-[2021-06-25 05:37:52.410280] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
+[2021-06-30 04:10:22.367372] INFO: AMGeO.driver_default: 2015-06-25 13:45:00 complete
+[2021-06-30 04:18:58.975565] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00
+[2021-06-30 04:22:05.079823] INFO: AMGeO.driver_default: No new datetimes to complete for 2015-06-25 13:00:00

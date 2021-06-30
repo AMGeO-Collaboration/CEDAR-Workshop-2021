@@ -6,11 +6,23 @@ Welcome to the AMGeO Workshop for CEDAR 2021!
 
 ## Workshop Link
 
-For the workshop, we have some pre-compiled notebooks for you to run. 
+To run the workshop materials on your own machine, we have provided a docker image of the notebooks and their dependencies!
 
-**Please click the below link to go to our jupyterhub AND get the latest notebook materials:** 
+[Once you have docker desktop installed](https://www.docker.com/get-started), you can pull the image by running
 
-[AMGeO Workshop Notebooks](https://jupyterhub-amgeo-colorado.net/hub?next=%2Fuser-redirect%2Fgit-pull?repo%3Dhttps%253A%252F%252Fgithub.com%252FAMGeO-Collaboration%252FCEDAR-Workshop-2021%26branch%3Dmain%26urlpath%3Dtree%252FCEDAR-Workshop-2021%252F)
+```bash
+docker pull ghcr.io/amgeo-collaboration/amgeo-cedar-workshop-2021
+```
+
+Once you have the image pulled, run
+
+```bash
+docker run -dp 8888:8888 ghcr.io/amgeo-collaboration/amgeo-cedar-workshop-2021
+```
+
+You will then be able to navigate to ```localhost:8888```, where you will enter ```test``` as a password. 
+
+From here, you will seee ```CEDAR-WORKSHOP-2021```, which contains all of our notebooks that you can run on your own!
 
 ## Relevant Links
 
